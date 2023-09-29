@@ -1,6 +1,6 @@
 function getBtnAndShow() {
   function displayDateAndTime() {
-    document.getElementByID('time').innerHTML = Date();
+    document.getElementById('time').innerHTML = Date();
   }
   document
   .getElementById('timeCheckBtn')
